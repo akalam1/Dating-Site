@@ -1,0 +1,194 @@
+#title {
+  background-color: #ff4c68;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* image */
+.image-rotaion {
+  transform: rotate(30deg);
+  width: 50%;
+  right: 15%;
+
+
+}
+
+
+
+
+/* z-index */
+
+
+.image-rotaion{
+position: absolute;
+
+}
+#features {
+
+position: relative;
+
+}
+
+
+/* media queriy */
+
+@media (max-width: 990px) {
+
+  #title{
+    text-align: center;
+  }
+  .image-rotaion{
+    padding-top: 10%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+/* heading  */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.download-buttons {
+  margin-top: 40px;
+}
+
+/* Features */
+#features {
+  background-color:white;
+  padding: 7% 17%;
+
+}
+
+.font-awesome {
+  font-family: Montserrat-bold;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.fa-3x {
+  color: #ef8172;
+}
+
+.fa-3x:hover {
+  color: red;
+}
+
+.h3 {
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+
+  background-color: #ef8172;
+  text-align: center;
+  color: #ffff;
+  font-family: none;
+}
+.carousel-item{
+    padding: 7% 17%;
+}
+h2{
+ font-family: 'Montserrat', sans-serif;
+
+  font-size: 2.3rem;
+  margin-bottom: 5%;
+  line-height: 160%;
+}
+.dog-pic {
+  border-radius: 100%;
+  width: 12%;
+  margin-right:1%;
+
+}
+
+/* Press */
+
+#press{
+  background:  #ef8172;
+  padding-bottom: 5%;
+text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 3%;
+}
+
+/* <!-- Call to Action --> */
+
+#cta{
+
+  text-align: center;
+
+  padding: 7% 0;
+}
+.discription{
+  padding: 0 5%;
+}
+discription{
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  padding: 0 20%;
+  font-size: 2rem;
+}
+
+/* footer */
+#footer{
+  background-color: #ff4c68;
+text-align: center;
+font-family: none;
+}
+
+.social-media{
+  padding: 2% 2% 1% 2%;
+}
+
+.buttonss{
+margin-top: 3%;
+}
+.copyright{
+  padding-bottom: 2%;
+}
+
+
+
+.
